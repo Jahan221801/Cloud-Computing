@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Document Object Model</title>
+        <style>
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #3424a0;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+            h1 {
+                color: #2c3e50;
+            }
+            p {
+                line-height: 1.6;
+            }
+            #fist {
+             
+                width: 50px;
+                padding: 100px;
+                border: 1px solid #ccc;
+                margin: 20px;
+                transition: background-color 0.3s ease;
+            }
+            .green {
+                background-color: rgb(145, 0, 0);
+            }
+            .red {
+                background-color: rgb(14, 143, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Document Object Model</h1>
+        <div id="fist" class="green">
+        </div>
+
+        <p id="para"></p>
+        <div id="content">
+            <button id="dom">Change Color</button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
